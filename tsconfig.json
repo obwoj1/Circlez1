@@ -21,6 +21,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/component.jsx", "src/app/layout.jsx", "src/app/page.jsx", "src/components/ui/button.jsx", "src/components/ui/card.jsx", "src/components/ui/dropdown-menu.jsx", "src/components/ui/input.jsx", "src/components/ui/progress.tsx"],
   "exclude": ["node_modules"]
 }

@@ -1,4 +1,8 @@
 import Image from "next/image";
+import "./globals.css"
+import Component from "./component.jsx"
+import "./layout.jsx"
+
 
 export default function Home() {
   return (
@@ -108,6 +112,10 @@ export default function Home() {
           </p>
         </a>
       </div>
+
+      {/* Include the imported Component here */}
+      <Component />
+
     </main>
   );
 }
